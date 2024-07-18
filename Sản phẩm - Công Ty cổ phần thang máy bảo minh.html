@@ -928,6 +928,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="./index.html" data-wpel-link="internal" style="font-size: 15px;">Trang chủ</a></li>
                         <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="./Giới thiệu - Công Ty cổ phần thang máy bảo minh.html" data-wpel-link="internal"style="font-size: 15px;">Giới thiệu</a></li>
                         <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-25 current_page_item menu-item-28"><a href="./Sản phẩm - Công Ty cổ phần thang máy bảo minh.html" data-wpel-link="internal"style="font-size: 15px;">Sản phẩm</a></li>
+                            <ul class="submenu" style="display: none; position: absolute; top: 100%; left: 0; background-color: #fff; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); z-index: 1000; list-style-type: none; padding: 0; margin: 0;">
+                            <li class="menu-item" style="display: block;"><a href="#link1" style="display: block; padding: 10px 20px; text-decoration: none; color: #333;">Thang máy gia đình</a></li>
+                            <li class="menu-item" style="display: block;"><a href="#link2" style="display: block; padding: 10px 20px; text-decoration: none; color: #333;">Thang máy tải hàng</a></li>
+                            <li class="menu-item" style="display: block;"><a href="#link3" style="display: block; padding: 10px 20px; text-decoration: none; color: #333;">Thang máy bệnh viện</a></li>
+                          </ul><script>
+                            document.querySelectorAll('.menu-item').forEach(function (menuItem) {
+                              menuItem.addEventListener('mouseenter', function () {
+                                this.querySelector('.submenu').style.display = 'block';
+                              });
+                              menuItem.addEventListener('mouseleave', function () {
+                                this.querySelector('.submenu').style.display = 'none';
+                              });
+                            });
+                          </script>
                         <li id="menu-item-810" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-810"><a href="./Lưu trữ Dự án -.html" data-wpel-link="internal"style="font-size: 15px;">Dự án</a></li>
                         <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="./Liên hệ.html" aria-current="page" data-wpel-link="internal"style="font-size: 15px;">Liên hệ</a></li>
                         </ul>
@@ -962,13 +976,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="hidden-xs menu_chinh">
                             <!-- BEGIN MAIN NAVIGATION -->
 <nav class="nav nav__primary clearfix">
-<ul id="topnav" class="sf-menu">
-    <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="./index.html" data-wpel-link="internal"style="font-size: 15px;">Trang chủ</a></li>
-    <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="./Giới thiệu - Công Ty cổ phần thang máy bảo minh.html" data-wpel-link="internal"style="font-size: 15px;">Giới thiệu</a></li>
-    <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-25 current_page_item menu-item-28"><a href="./Sản phẩm - Công Ty cổ phần thang máy bảo minh.html" data-wpel-link="internal"style="font-size: 15px;">Sản phẩm</a></li>
-    <li id="menu-item-810" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-810"><a href="./Lưu trữ Dự án -.html" data-wpel-link="internal"style="font-size: 15px;">Dự án</a></li>
-    <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="./Liên hệ.html" aria-current="page" data-wpel-link="internal"style="font-size: 15px;">Liên hệ</a></li>
-</ul></nav><!-- END MAIN NAVIGATION -->							</div>
+    <ul id="topnav" class="sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="./index.html" data-wpel-link="internal"style="font-size: 15px;">Trang chủ</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="./Giới thiệu - Công Ty cổ phần thang máy bảo minh.html" data-wpel-link="internal"style="font-size: 15px;">Giới thiệu</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-32"><a  data-wpel-link="internal"style="font-size: 15px;">Sản phẩm</a>
+    <ul class="sub-menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-product current-menu-item menu-item-2500"><a href="./thangtaikhach.html" aria-current="page" data-wpel-link="internal">Thang máy tải khách</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2501"><a href="./thanggiadinh.html" data-wpel-link="internal">Thang máy gia đình</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2502"><a href="./thangmaylongkinh.html" data-wpel-link="internal">Thang máy lồng kính</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2503"><a href="./thangtaigiuongbenh.html" data-wpel-link="internal">Thang máy tải giường bệnh</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2504"><a href="./thangtaihang.html" data-wpel-link="internal">Thang máy tải hàng</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2506"><a href="./thangtaixehoi.html" data-wpel-link="internal">Thang máy tải xe hơi</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2509"><a href="./thangkhongphongmay.html" data-wpel-link="internal">Thang máy không phòng máy</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2508"><a href="./thangtaithucpham.html" data-wpel-link="internal">Thang máy tải thực phẩm</a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2703"><a  data-wpel-link="internal">Thang máy mini</a></li>
+    </ul>
+    </li>
+
+    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-810"><a href="./Lưu trữ Dự án -.html" data-wpel-link="internal"style="font-size: 15px;">Dự án</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="./Liên hệ.html" data-wpel-link="internal"style="font-size: 15px;">Liên hệ</a></li>
+    </ul></nav><!-- END MAIN NAVIGATION -->								</div>
 											</div>
 				</div>
 			</div>
@@ -1002,134 +1028,291 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </section><!-- .title-section -->
 						<div id="post-15" class="page post-15 type-page status-publish hentry">
 		<div id="pl-15" class="panel-layout"><div id="pg-15-0" class="panel-grid panel-no-style"><div id="pgc-15-0-0" class="panel-grid-cell"><div id="panel-15-0-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="0">			<div class="textwidget">
-<h3 style="color: darkblue;">1. Thang máy tải khách</h3>
-<p>- Thang tải khách là phương tiện vận chuyển an toàn, nhanh chóng cho mọi công trình, được trang bị các tính 
-    năng an toàn giúp ngăn ngừa các tai nạn có thể xảy ra khi vận hành như: kết cấu cabin cứng vững và chịu được 
-    va đập mạnh, hệ thống động cơ được kiểm soát tốc độ, hệ thống phanh SBS (hãm tốc độ từ từ) giúp giảm tốc 
-    độ an toàn cho người khi xảy ra sự cố. Thang máy thực sự cung cấp một hệ thống an toàn tổng thể.</p>
-    <p>- Tải trọng: 300kg - 1600kg.</p>
-    <p>- Tốc độ di chuyển từ 60m/phút đến 105m/phút.</p>
-    <p>- Hành trình: đến 50m ( tương đương 15 tầng).</p>
-    <p>- Bộ cứu hộ tự động UPS: Khi nguồn điện chính bị mất đột ngột, thiết bị này sẽ tự động đưa thang máy đến tầng 
-        gần nhất và mở cửa để cho khách ra ngoài.</p>
-        <div class="image-container">
-        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaikhach1.jpg" alt="ảnh thang tải khách" title="thang tải khách">
-        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaikhach2.jpg" alt="ảnh thang tải khách" title="thang tải khách">
-        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaikhach3.jpg" alt="ảnh thang tải khách"title="thang tải khách">
-        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaikhach4.jpg" alt="ảnh thang tải khách"title="thang tải khách">
-        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaikhach5.jpg" alt="ảnh thang tải khách"title="thang tải khách">
+    <h3 style="color: darkblue;">            
+        <div class="content_page">
+            <section class="title-section">
+<h1 class="title-header">
+<span>
+            Thang tải khách		</span>
+</h1>
+</section><!-- .title-section -->
+            
+            <div id="pl-108" class="panel-layout"><div id="pg-108-0" class="panel-grid panel-no-style"><div id="pgc-108-0-0" class="panel-grid-cell"><div id="panel-108-0-0-0" class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child panel-last-child" data-index="0"><div class="textwidget"><p><strong>Thang máy tải khách</strong> là loại thang máy chuyên dụng để tải khách, được sử dụng khá phổ biến trong cuộc sống hiện nay. Với nhiều tính năng hiện đại, công nghệ tiên tiến, <strong>thang máy tải khách</strong> ra đời giúp giải quyết vấn đề đi lại giữa các tầng của nhà cao tầng. Song song đó, mang lại trải nghiệm an toàn, thú vị cho người dùng.</p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-1995" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-1.jpg" alt="Thang máy tải khách được sử dụng rộng rãi trên thị trường hiện nay" width="600" height="387"></p>
+<p style="text-align: center;"><em>Thang máy tải khách được sử dụng rộng rãi trên thị trường hiện nay</em></p>
+<p>Có thể nói, <strong>thang máy tải khách</strong> được ví như một phương tiện vô cùng đặc biệt của con người trong thời đại phát triển hiện nay. Thang máy tải khách không chỉ giúp quý khách di chuyển dễ dàng mà còn mang tầm vóc của một công trình sang trọng, đẳng cấp. Đây cũng chính là lý do mà giới chuyên môn gọi sản phẩm này là dòng <strong>thang máy tải khách</strong>.</p>
+<h2><span id="1_Ung_dung_cua_thang_may_tai_khach"><strong>1. </strong><strong>Ứng dụn</strong><strong>g của thang máy tải khách</strong></span></h2>
+<p><strong>Thang máy tải khách</strong> là dòng sản phẩm có đầy đủ các tính năng an toàn, chất lượng cao và áp dụng công nghệ hiện đại. Do đó, có thể phục vụ tốt cho nhu cầu đi lại của con người, bao gồm các loại thang máy tải khách:</p>
+<ul>
+<li>Gia đình.</li>
+<li>Tòa nhà cao tầng, chung cư.</li>
+<li>Chuyên dụng cho biệt thự.</li>
+<li>Nhà hàng, khách sạn.</li>
+<li>Văn phòng.</li>
+<li>Siêu thị, các trung tâm thương mại.</li>
+<li>Quán karaoke.</li>
+<li>Bệnh viện, phòng khám tư.</li>
+</ul>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-1996" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-2.jpg" alt="Ứng dụng của thang máy trong nhà hàng, khách sạn" width="600" height="400"></p>
+<p style="text-align: center;"><em>Ứng dụng của thang máy trong nhà hàng, khách sạn</em></p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-1998" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-4.jpg" alt="Thang máy được sử dụng trong các siêu thị hay trung tâm thương mại lớn" width="600" height="337"></p>
+<p style="text-align: center;"><em>Thang máy được sử dụng trong các siêu thị hay trung tâm thương mại lớn</em></p>
+<p>Không dừng lại ở đó, Thang máy Bảo Minh đã áp dụng khoa học – kỹ thuật hiện đại và công nghệ tiên tiến trên thế giới trong sản xuất. Nhờ đó, các sản phẩm thang máy tải khách luôn có chất lượng cao cùng nhiều tính năng vượt trội.</p>
+<p>Áp dụng nhiều công nghệ tiên tiến, tiêu biểu có thể kể đến như:</p>
+<ul>
+<li>Máy kéo Gearless PM (sử dụng từ trường vĩnh cửu).</li>
+<li>VVVF.</li>
+<li>Thu hồi năng lượng từ động năng vô ích, vi xử lý.</li>
+<li>Phân phối, điều khiển dựa trên dữ liệu mạng.</li>
+<li>Kiểm soát, điều khiển thông minh cửa ra vào.</li>
+<li>Quản lý và kiểm soát nhóm thuật toán thông minh, quản lý lên đến 08 thang máy cùng một lúc.</li>
+</ul>
+<p>Ngoài ra, thang máy tải khách còn áp dụng những thiết bị sản xuất hiện đại trên thế giới như: máy đột, dập CNC, máy cắt laser, robot, hàn laser,... Do đó, chất lượng sản phẩm luôn được đánh giá cao.</p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2000" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-6.jpg" alt="Thang máy hiện nay được thiết kế với nhiều màu sắc độc lạ" width="600" height="337"></p>
+<p style="text-align: center;"><em>Thang máy hiện nay được thiết kế với nhiều màu sắc độc lạ</em></p>
+<h2><span id="2_Cac_loai_thang_may_tai_khach_duoc_cung_cap_boi_Thang_may_Thanh_Phat"><strong>2. </strong><strong>Các loại thang máy tải khách được cung cấp bởi Thang máy Bảo Minh </strong></span></h2>
+<p>Với công dụng chính là tải khách, dòng sản phẩm này được sử dụng phổ biến từ công trình dân dụng cho đến các công trình thương mại. Vậy với thiết kế phòng máy, quý khách nên lựa chọn thương hiệu, tải trọng, mẫu mã như thế nào? Hãy cùng xem phân loại cụ thể sau đây.</p>
+<h3><span id="Thuong_hieu_thang_may_tai_khach"><strong>Thương hiệu thang máy tải khách</strong></span></h3>
+<ul>
+<li>Fuji.</li>
+<li>Mitsubishi.</li>
+<li>Nippon.</li>
+<li>Lutz.</li>
+<li>Siemens.</li>
+<li>Yaskawa.</li>
+<li>Omron.</li>
+<li>Autonic.</li>
+</ul>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2001" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-7.jpg" alt="Thang máy Fuji - thang máy chuyên tải khách chất lượng tốt nhất hiện nay" width="600" height="400"></p>
+<p style="text-align: center;"><em>Thang máy Fuji - thang máy chuyên tải khách chất lượng tốt nhất hiện nay</em></p>
+<h3><span id="Tai_trong_thang_may"><strong>Tải trọng thang máy</strong></span></h3>
+<p>Tải trọng thang máy được sử dụng phổ biến hiện nay:</p>
+<p><strong><em>Tải trọng thang máy 200kg</em></strong></p>
+<ul>
+<li>Tốc độ: 0.4m/s.</li>
+<li>Kích thước hố thang: 1300 x 1100mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 950 x 600 x 2200mm.</li>
+</ul>
+<p><strong><em>Thang máy có tải trọng 300kg</em></strong></p>
+<ul>
+<li>Tốc độ: 0.5m/s.</li>
+<li>Kích thước hố thang: 1500 x 1400mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 1100 x 1000 x 3800mm.</li>
+</ul>
+<p><strong><em>Tải trọng thang máy 450kg</em></strong></p>
+<ul>
+<li>Tốc độ: 1m/s.</li>
+<li>Kích thước hố thang: 1700 x 1600mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 1300 x 1000 x 4000mm.</li>
+</ul>
+<p><strong><em>Thang máy có tải trọng 500kg</em></strong></p>
+<ul>
+<li>Tốc độ: 1.5m/s.</li>
+<li>Kích thước hố thang: 1800 x 1500mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 1400 x 900 x 4200mm.</li>
+</ul>
+<p><strong><em>Tải trọng thang máy 650kg</em></strong></p>
+<ul>
+<li>Tốc độ: 1.75m/s.</li>
+<li>Kích thước hố thang: 1800 x 1800mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 1400 x 1200 x 4200mm.</li>
+</ul>
+<p><strong><em>Thang máy có tải trọng 1000kg</em></strong></p>
+<ul>
+<li>Tốc độ: 2.5m/s.</li>
+<li>Kích thước hố thang: 2300 x 2100mm.</li>
+<li>Kích thước cabin (rộng – sâu – cao): 1800 x 1400 x 4200mm.</li>
+</ul>
+<p>Tải trọng thang máy là tải trọng tối đa mà thang máy chịu được để tải người hoặc vật. Do đó, tùy theo nhu cầu sử dụng mà lựa chọn loại thang máy phù hợp.</p>
+<h3><span id="Thiet_ke_phong_may"><strong>Thiết kế phòng máy</strong></span></h3>
+<ul>
+<li><strong><em>Thang máy có phòng máy: </em></strong>Đây là loại thang máy truyền thống. Được thiết kế với phòng máy trên đỉnh giếng thang, sử dụng động cơ hộp số, lắp đặt nhanh chóng, bảo dưỡng và cứu hộ dễ dàng.</li>
+<li><strong><em>Thiết kế thang máy có phòng máy nhỏ: </em></strong>Loại thang máy này chỉ khác thang máy tải khách có phòng máy về tải trọng.</li>
+<li><strong><em>Thang máy không phòng máy: </em></strong>Loại thang máy này có tên gọi khác là thang máy tiết kiệm điện năng, động cơ không hộp số sử dụng nam châm vĩnh cửu. Ưu điểm nổi bật là kích thước nhỏ gọn và không cần bảo dưỡng động cơ.</li>
+</ul>
+<h3><span id="Mau_ma_kieu_dang_thang_may_tai_khach"><strong>Mẫu mã, kiểu dáng thang máy tải khách</strong></span></h3>
+<ul>
+<li>Sản xuất từ chất liệu Laminate.</li>
+<li>Inox họa tiết hoa văn.</li>
+<li>Thép phủ sơn tĩnh điện.</li>
+<li>Thiết kế từ chất liệu gỗ, da.</li>
+<li>Làm từ chất liệu đá.</li>
+</ul>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2002" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-8.jpg" alt="Thang máy được trang trí với họa tiết hoa văn độc đáo, sang trọng" width="600" height="312"></p>
+<p style="text-align: center;"><em>Thang máy được trang trí với họa tiết hoa văn độc đáo, sang trọng</em></p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2003" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-9.jpg" alt="Thang máy làm từ chất liệu đá cao cấp, sang trọng" width="600" height="417"></p>
+<p style="text-align: center;"><em>Thang máy làm từ chất liệu đá cao cấp, sang trọng</em></p>
+<h2><span id="3_Bao_gia_thang_may_tai_khach_moi_nhat"><strong>3. </strong><strong>Báo giá thang máy tải khách mới nhất</strong></span></h2>
+<p>Tùy vào thương hiệu, tải trọng... mà thang máy tải khách sẽ có giá thành khác nhau.</p>
+<table border="1" width="100%">
+<tbody>
+<tr>
+<td style="text-align: center;" width="71">
+<p><strong>Tải trọng<br>
+(kg)</strong></p>
+</td>
+<td style="text-align: center;" width="98">
+<p><strong>Tốc độ<br>
+(m/s)</strong></p>
+</td>
+<td style="text-align: center;" width="179">
+<p><strong>Kích thước hố thang<br>
+(mm)</strong></p>
+</td>
+<td style="text-align: center;" width="179">
+<p><strong>Kích thước cabin<br>
+(mm)</strong></p>
+</td>
+<td style="text-align: center;" width="76">
+<p><strong>Giá</strong></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" width="71">
+<p>200</p>
+</td>
+<td style="text-align: center;" width="98">
+<p>0.4</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1300 x 1100</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>950 x 600 x 2200</p>
+</td>
+<td style="text-align: center;" rowspan="5" width="76">
+<p>Liên hệ</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" width="71">
+<p>300</p>
+</td>
+<td style="text-align: center;" width="98">
+<p>0.5</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1500 x 1400</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1100 x 1000 x 3800</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" width="71">
+<p>450</p>
+</td>
+<td style="text-align: center;" width="98">
+<p>1</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1700 x 1600</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1300 x 1000 x 4000</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" width="71">
+<p>500</p>
+</td>
+<td style="text-align: center;" width="98">
+<p>1.5</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1800 x 1500</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1400 x 900 x 4200</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" width="71">
+<p>1000</p>
+</td>
+<td style="text-align: center;" width="98">
+<p>2.5</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>2300 x 2100</p>
+</td>
+<td style="text-align: center;" width="179">
+<p>1800 x 1400 x 4200</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Trên đây là bảng thông số kỹ thuật của thang máy với nhiều tải trọng khác nhau. Điều này sẽ giúp quý khách lựa chọn được sản phẩm phù hợp với nhiều mục đích sử dụng tại nhà hàng, khách sạn, chung cư, trung tâm thương mại,...</p>
+<h2><span id="4_Ly_do_nen_su_dung_thang_may_tai_khach_cua_Thang_may_Thanh_Phat"><strong>4. </strong><strong>Lý do nên sử dụng thang máy tải khách của Thang máy Bảo Minh</strong></span></h2>
+<p>Hiện nay, trên thị trường có nhiều đơn vị cung cấp thang máy tải khách với thương hiệu cũng như chất lượng và giá thành khác nhau. Do đó, việc lựa chọn mua thang máy là điều không phải dễ. Quý khách cần tìm hiểu kỹ địa chỉ mua thang máy để sản phẩm sử dụng an toàn.</p>
+<p>Nếu quý khách chưa tìm được đơn vị cung cấp thang máy uy tín thì Thang máy Bảo Minh là gợi ý tuyệt vời. Thang máy Bảo Minh với hơn 20 năm hoạt động trong nghề, sở hữu đội ngũ lắp ráp thang máy có tay nghề cao. Chính vì thế, chúng tôi cam kết giúp quý khách hoàn thiện sản phẩm trong thời gian nhanh chóng.</p>
+<p style="text-align: center;"><img class="alignnone size-full wp-image-2004" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-10.jpg" alt="Đơn vị cung cấp thang máy uy tín – Thang máy Bảo Minh" width="600" height="600"></p>
+<p style="text-align: center;"><em>Đơn vị cung cấp thang máy uy tín – Thang máy Bảo Minh</em></p>
+
+<p><span style="font-weight: 400;">Việc lắp đặt thang máy sẽ giúp giải quyết khó khăn trong việc đi lại giữa các tòa nhà cao tầng. Khi tìm kiếm đơn vị thi công thang máy uy tín nên cân nhắc kỹ lưỡng để đảm bảo sản phẩm khi sử dụng sẽ đạt chất lượng tốt nhất. Một số yếu tố quý khách cần quan tâm như: nhà cung cấp, thương hiệu, nguồn gốc, xuất xứ,...</span></p>
+<p><span style="font-weight: 400;">Những thông tin cung cấp về sản phẩm thang máy tải khách trên đã giúp quý khách đưa ra quyết định nên lựa chọn loại thang máy nào phù hợp. Nếu quý khách quan tâm đến sản phẩm thì vui lòng liên hệ với Thang máy Bảo Minh để được tư vấn.</span></p>
+</div></div></div></div></div>					
+                                    <div id="single-gallery-carousel" class="owl-carousel owl-theme owl-loaded owl-drag">
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                    
+                        
+
+                                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1372px;"><div class="owl-item active" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-7-1.jpg"></a>
+                        </div></div><div class="owl-item active" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-8-1.jpg"></a>
+                        </div></div><div class="owl-item active" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-9-1.jpg"></a>
+                        </div></div><div class="owl-item active" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-6-1.jpg"></a>
+                        </div></div><div class="owl-item active" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-4-1.jpg"></a>
+                        </div></div><div class="owl-item" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-1-1.jpg"></a>
+                        </div></div><div class="owl-item" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-tai-khach-2-1.jpg"></a>
+                        </div></div><div class="owl-item" style="width: 161.5px; margin-right: 10px;"><div class="item">
+                            <a  class="lightbox" data-group="single-gallery" data-wpel-link="internal"><img alt="image gallery" class="img-single-gallery" src="./Báo giá thang máy tải khách với tải trọng đa dạng, tốt nhất 2022_files/thang-may-cho-nguoi-khuyet-tat-nguoi-gia.jpg"></a>
+                        </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                                
+                                <!-- .share-buttons -->
+
+
+<!-- //.share-buttons -->
+
             </div>
-            <h3 style="color: darkblue;">2. Thang máy tải hàng</h3>
-            <p>- Với khả năng chịu được trọng tải cao, chuyển tải hàng hóa nặng một cách nhanh chóng, bền bỉ và hiệu quả. Đang là sự lựa chọn thông minh cho các nhà máy công nghiệp, kho hàng, hoặc các trung tâm thương mại</p>
-                <p>- Tải trọng: 300Kg ~ 3.000Kg.</p>
-                <p>- Tốc độ di chuyển từ 15m/p đến 60m/p.</p>
-                <p>- Sàn cabin: Tole sắt gân.</p>
-                <p>- Vách và trần cabin: Inox và tole sơn tĩnh điện.</p>
-                <p>- Đèn chiếu sáng: Lắp đặt trên trần phòng thang. Đối với 
-                    thang máy tải hàng có tốc độ cao và kèm theo người đi thì 
-                    hệ thống điều khiển được trang bị thêm biến tần VVVF giúp 
-                    thang chạy êm ái, chính xác.</p>
-                <p>- Cửa tầng: Cửa sắt xếp mở bằng tay hoặc là cửa tole (inox) 
-                    mở tự động với thiết kế tiêu chuẩn 2 cách mở tim. Để tăng 
-                    độ mở rộng cửa tối đa ta có thể chọn kiểu truyền động 2 
-                    cánh mở về 1 phía (2S), hoặc có thể chọn kiểu truyền động 
-                    4 cánh mở tim về 2 phía.</p>
-                    <div class="image-container">
-                    <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaihang1.PNG" alt="">
-                    <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaihang2.PNG" alt="">
-                        </div>
-                        <h3 style="color: darkblue;"    >3. Thang máy tải thực phẩm</h3>
-                        <p>- Thang tải thực phẩm với nhiều mẫu thiết kế phù hợp từng loại hình kiến trúc riêng biệt, phục vụ hữu hiệu cho 
-                            việc vận chuyển các đồ dùng của nhà bếp, các loại thức ăn , thức uống trong nhà hàng, khách sạn, những đồ 
-                            vật hàng hóa đơn giản trong các siêu thị, trung tâm thương mại như hồ sơ, sách báo, …</p>
-                            <p>- Tải trọng: 50kg - 300kg.</p>
-                            <p>- Tốc độ di chuyển: 15m/p - 30 m/p - Nguồn điện 3 pha 380V, hoặc 1 pha 220V. </p>
-                            <p>- Khay chứa: Lấy ra hay lắp vào dễ dàng.</p>
-                            <p>- Vật liệu cabin và khay chứa: Inox sọc nhuyễn.</p>
-                            <p>- Cửa: Gương bọc nhôm hoặc Inox.</p>
-                            <p>- Chuông báo dừng tầng thang máy.</p>
-                                <div class="image-container">
-                                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaithucpham1.PNG" alt="">
-                                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaithucpham2.PNG" alt="">
-                                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaithucpham3.PNG" alt="">
-                                    </div>
-                                    <h3 style="color: darkblue;">4. Thang máy lồng kính</h3>
-                                    <p>- Thang máy lồng kính là một phần quan trọng trong kiến trúc hiện đại. Với mẫu mã đa dạng phù hợp với mọi 
-                                        công trình kiến trúc hiện đại như trung tâm thương mại, khách sạn cao cấp, … Khách hàng có thể lựa chọn các 
-                                        kiểu dáng khác nhau để tạo ấn tượng riêng cho tòa nhà.</p>
-                                        <p>- Tải trọng: 300kg - 1600kg.</p>
-                                        <p>- Tốc độ di chuyển từ 60m/phút đến 105m/phút.</p>
-                                        <p>- Hành trình: đến 50m ( tương đương 15 tầng).</p>
-                                        <p>- Bộ cứu hộ tự động UPS: Khi nguồn điện chính bị mất đột ngột, thiết bị này sẽ tự động đưa thang máy đến tầng 
-                                            gần nhất và mở cửa để cho khách ra ngoài.</p>
-                                            <div class="image-container">
-                                            <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thanglongkinh.PNG" alt="ảnh thang máy lồng kính" title="thang lồng kính">\
-                                                </div>
-                                    <h3 style="color: darkblue;">5. Thang máy gia đình</h3>
-                                    <p>- Với thiết kế thanh lịch, sang trọng, hiện đại cùng với sự di 
-                                        chuyển thoải mái nhẹ nhàng, ít tiếng ồn và đặc biệt giảm 
-                                        tiêu thụ năng lượng. Sự lựa chọn hợp lý cho nhà Villas, biệt 
-                                        thự và các căn hộ Penthouse.</p>
-                                    <p>- Tải trọng: 140kg - 340kg (3,4 người)       </p>
-                                    <p>- Tốc độ di chuyển từ 20m/phút đến 25m/phút.</p>
-                                    <p>- Hành trình tối đa lên tới 16,9m tương đương với 8 tầng, 1 
-                                       hoặc 2 cửa vào.</p>
-                                    <p>- Hố thang nhỏ gọn, không dùng đối trọng: Tiết kiệm được 
-                                        diện tích tòa nhà khi lắp đặt. Buồng thang máy được tích 
-                                        hợp ngay trong hố thang cực kỳ nhỏ gọn,dễ dàng cho các 
-                                        hoạt động bảo trì.</p>
-                                    <p>- Tiết kiệm điện năng: Sử dụng dòng điện một pha, kết hợp 
-                                        với tính năng bộ điều khiển tiết kiệm năng lượng.</p>
                                            <div class="image-container">
                                                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thanggiadinh.PNG" alt="ảnh thang gia đình" title="thang gia đình">
                                           <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thanggiadinh2.PNG" alt="ảnh thang đình" title="thang gia đình">                                                            </div>
         </div>
-        <h3 style="color: darkblue;">6. Thang máy tải giường bệnh</h3>
-        <p>- Thang máy tải giường bệnh yêu phải cầu hoạt động êm, 
-            thuận tiện, điểm dừng chính xác, điều khiển trong trường 
-            hợp khẩn cấp. Ðặc biệt, thang bệnh viện thường được thiết 
-            kế có lan can mềm để chống những va chạm trong quá 
-            trình vận chuyển. Thang máy tải giường bệnh do chúng 
-            tôi cung cấp có tải trọng từ 1600 kg-2500 kg và bao gồm 
-            nhiều đặc tính kỹ thuật chủ yếu được thiết kế đem lại sự 
-            lựa chọn cần thiết phù hợp cho tất cả các loại thang bệnh 
-            viện mới.</p>
-            <p>- Tải trọng: Tải trọng 750kg - 1600kg (24 người).</p>
-            <p>- Tốc độ di chuyển từ 30m/phút đến 60m/phút.</p>
-            <p>- Hành trình: đến 60m ( tương đương 18 tầng).</p>
-            <p>- Bộ cứu hộ tự động UPS: Khi nguồn điện chính bị mất đột 
-                ngột, thiết bị này sẽ tự động đưa thang máy đến tầng gần 
-                nhất và mở cửa để cho khách ra ngoài. Nguồn điện dự trữ 
-                nạp lại khi có điện.</p>
-                <div class="image-container">
-                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaigiuongbenh.PNG" alt="ảnh thang tải giường bệnh" title="thang tải giường bệnh">
-                <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaigiuongbenh2.PNG" alt="ảnh thang tải giường bệnh" title="thang tải giường bệnh">
-                    </div>   
         
-                    <h3 style="color: darkblue;">7. Thang máy tải xe hơi</h3>
-                    <p>Thang máy tải xe hơi là một dạng thang máy tải hàng nhưng có yêu cầu riêng biệt. Kích thước và tải trọng phù 
-                        hợp với nhóm xe 4 chỗ, 7 chỗ hoặc hơn, dùng cho các chung cư, khu để xe ô tô… Thang chuyên dùng để nâng ô 
-                        tô, an toàn nhanh chóng và chính xác. Người lái xe điều khiển xe chạy vào thang máy và điều khiển thang máy.</p>
                        
-                            <div class="image-container">
-                            <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaioto.PNG" alt="ảnh thang tải ô tô" title="thang tải xe hơi">
-                            <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangtaioto2.PNG" alt="ảnh thang tải xe hơi" title="thang tải xe hơi">
-                                </div>      
-                                <h3 style="color: darkblue;"></h3style>8. Thang máy không phòng máy</h3>
-                                <p>Thang máy ngày nay đã có những cải tiến và phát triển vượt bậc 
-                                    qua thời gian, nó dần đáp ứng những yêu câu riêng, cụ thể của 
-                                    từng công trình.Trong thời gian gần đây loại thang máy không 
-                                    phòng máy được áp dụng lắp đặt nhiều ở các gia đình tư nhân, 
-                                    văn phòng mini bị hạn chế chiều cao trong quá trình xây dựng.</p>
+                                  
+                               
                 
-                                <div class="image-container">
-                               <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangkhongphongmay.PNG" alt="ảnh thang máy không phòng máy" title="thang máy không phòng máy">
-                                            </div>  
+                                 
                                             
-                    <h3 style="color: darkblue;">9. Các mẫu thang máy nhập</h3>
-                    <div class="image-container">
-                        <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/thangmaynhap.PNG" alt="các mẫu thang máy nhập" title="các mẫu thang máy nhập">
-                    </div>
+                   
 		</div></div></div><div id="pg-15-1" class="panel-grid panel-has-style"><div id="list_danhmuc" class="panel-row-style panel-row-style-for-15-1"><div id="pgc-15-1-0" class="panel-grid-cell"><div id="panel-15-1-0-0" class="so-panel widget widget_postcustom my_posts_type_widget panel-first-child panel-last-child" data-index="1"><div class="container icon-edit panel-widget-style panel-widget-style-for-15-1-0-0">
             
     </div></div></div></div></div></div>		<div class="clear"></div>
@@ -1147,7 +1330,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <img src="./Sản phẩm - Công Ty cổ phần thang máy bảo minh_files/ICON-THANG-MAY-2-14.png" alt="Thang tải khách">
                         </a>
                     </figure>
-                <div class="post_meta">                    <div class="post-list_h"><a class="post-title"  rel="bookmark" title="Thang tải khách" data-wpel-link="internal">Thang máy tải khách</a></div>
+                <div class="post_meta">                    <div class="post-list_h"><a class="post-title"  rel="bookmark" title="Thang tải khách" data-wpel-link="internal" href="Untitled-1.html">Thang máy tải khách</a></div>
                                               </div>          </div>
         </li><!--//.post-list_li -->
             <li class="list_item_0 ">
